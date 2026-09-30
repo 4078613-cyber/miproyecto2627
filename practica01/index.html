@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="es" >
+<html class="writer-html5" lang="en" >
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Alumno DAW - IES Los Albares" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO - Desarrollo Web en Entorno Servidor 2026/27</title>
+    <title>PRÁCTICA GUIADA 01: DESPLIEGUE DE DOCUMENTACIÓN TÉCNICA CON PROPERDOCS Y TEMA "READTHEDOCS" - Proyecto Intermodular</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../css/estilo.css" rel="stylesheet" />
     
       <script>
         // Current page data
-        var properdocs_page_name = "PRACTICA 01 - CONFIGURACI\u00d3N E INSTALACI\u00d3N DEL ENTORNO";
+        var properdocs_page_name = "PR\u00c1CTICA GUIADA 01: DESPLIEGUE DE DOCUMENTACI\u00d3N T\u00c9CNICA CON PROPERDOCS Y TEMA \"READTHEDOCS\"";
         var properdocs_page_input_path = "practica01.md";
         var properdocs_page_url = null;
       </script>
@@ -22,6 +21,10 @@
       <script src="../js/html5shiv.min.js"></script>
     <![endif]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/php.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/html.min.js"></script>
       <script>hljs.highlightAll();</script> 
 </head>
 
@@ -31,77 +34,17 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Desarrollo Web en Entorno Servidor 2026/27
+          <a href=".." class="icon icon-home"> Proyecto Intermodular
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-      <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" title="Escriba el término de búsqueda aquí" />
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegación">
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#1-instalacion-y-configuracion-de-git">1. INSTALACIÓN Y CONFIGURACIÓN DE GIT.</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-1-descargar-el-instalador-oficial">Paso 1: Descargar el instalador oficial</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-2-ejecutar-el-instalador">Paso 2: Ejecutar el instalador</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-3-configuramos-git">Paso 3: Configuramos GIT</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-4-verficamos-la-instalacion">Paso 4: Verficamos la instalación</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#2-configuracion-del-cliente-de-terminal-de-github">2. CONFIGURACIÓN DEL CLIENTE DE TERMINAL DE GITHUB.</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-1-crear-el-repositorio-en-github">Paso 1: Crear el repositorio en GitHub.</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-2-instalar-el-cliente-de-github-para-la-terminal">Paso 2: instalar el cliente de GitHub para la terminal.</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-3-configura-gh-con-tus-credenciales-de-github">Paso 3: configura gh con tus credenciales de GitHub.</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#2-instalacion-de-python">2. INSTALACIÓN DE PYTHON</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-1-descargar-el-instalador-oficial_1">Paso 1: Descargar el instalador oficial</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-2-ejecutar-el-instalador_1">Paso 2: Ejecutar el instalador</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-3-marcar-la-opcion-del-path-fundamental">Paso 3: Marcar la opción del PATH (¡fundamental!)</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-4-iniciar-la-instalacion">Paso 4: Iniciar la instalación</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-5-finalizar-la-instalacion">Paso 5: Finalizar la instalación</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-6-comprobar-que-python-se-ha-instalado-correctamente">Paso 6: Comprobar que Python se ha instalado correctamente</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-7-y-si-no-funciona-pip">Paso 7: ¿Y SI NO FUNCIONA PIP?</a>
-        <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#solucion-anadir-python-al-path-automaticamente">Solución: Añadir Python al PATH automáticamente</a>
-    </li>
-        </ul>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#3-instalacion-de-properdocs">3. INSTALACIÓN DE PROPERDOCS</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#4-inicializacion-y-configuracion-del-proyecto">4. INICIALIZACIÓN Y CONFIGURACIÓN DEL PROYECTO</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-1-clonar-el-repositorio-remoto">Paso 1: Clonar el repositorio remoto</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#paso-2-configurar-el-archivo-properdocsyml">Paso 2: Configurar el archivo properdocs.yml</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#6-previsualizacion-y-compilacion">6. PREVISUALIZACIÓN Y COMPILACIÓN</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#7-publicacion-en-github-pages">7. PUBLICACIÓN EN GITHUB PAGES</a>
-    </li>
-    </ul>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Inicio</a>
                 </li>
               </ul>
       </div>
@@ -109,16 +52,16 @@
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-      <nav class="wy-nav-top" role="navigation" aria-label="Menú de navegación en móvil">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Desarrollo Web en Entorno Servidor 2026/27</a>
+          <a href="..">Proyecto Intermodular</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" aria-label="Documentos"></a></li>
-      <li class="breadcrumb-item active">PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO</li>
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">PRÁCTICA GUIADA 01: DESPLIEGUE DE DOCUMENTACIÓN TÉCNICA CON PROPERDOCS Y TEMA "READTHEDOCS"</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -129,10 +72,10 @@
               
                 <h1 id="practica-guiada-01-despliegue-de-documentacion-tecnica-con-properdocs-y-tema-readthedocs">PRÁCTICA GUIADA 01: DESPLIEGUE DE DOCUMENTACIÓN TÉCNICA CON PROPERDOCS Y TEMA "READTHEDOCS"</h1>
 <hr />
-<div class="admonition hint">
-<p class="admonition-title"><strong>Terminal de Windows</strong></p>
-<p>Para abrir el <strong>Símbolo del sistema</strong> (terminal o intérprete de comandos), pulsa las teclas <code>Windows + R</code>, escribe <code>cmd</code> en el recuadro que aparece y pulsa <code>Enter</code>.</p>
-</div>
+<p>/// admonition | <strong>Terminal de Windows</strong>
+    type: hint</p>
+<p>Para abrir el <strong>Símbolo del sistema</strong> (terminal o intérprete de comandos), pulsa las teclas <code>Windows + R</code>, escribe <code>cmd</code> en el recuadro que aparece y pulsa <code>Enter</code>.
+///</p>
 <h2 id="1-instalacion-y-configuracion-de-git">1. INSTALACIÓN Y CONFIGURACIÓN DE GIT.</h2>
 <h3 id="paso-1-descargar-el-instalador-oficial">Paso 1: Descargar el instalador oficial</h3>
 <p>Nos descargamos la última versión de <code>GIT</code> desde la web oficial <strong><a href="https://git-scm.com">GIT</a></strong>.</p>
@@ -187,10 +130,10 @@
 </ol>
 <p><img alt="pr01-img08" src="../img/pr01-img08.png" /></p>
 <h2 id="2-instalacion-de-python">2. INSTALACIÓN DE PYTHON</h2>
-<div class="admonition warning">
-<p class="admonition-title"><strong>PYTHON y ENTORNOS <code>venv</code></strong></p>
-<p>Aunque lo recomendable es virtualizar cada proyecto de python mediante <code>venv</code>r, por simplicidad vamos a configura todo de manera global.</p>
-</div>
+<p>/// admonition | <strong>PYTHON y ENTORNOS <code>venv</code></strong>
+    type: warning</p>
+<p>Aunque lo recomendable es virtualizar cada proyecto de python mediante <code>venv</code>r, por simplicidad vamos a configura todo de manera global.
+///</p>
 <p>Esta es una guía paso a paso para descargar e instalar <strong>Python</strong> en sistemas operativos <strong>Windows</strong>.</p>
 <hr />
 <h3 id="paso-1-descargar-el-instalador-oficial_1">Paso 1: Descargar el instalador oficial</h3>
@@ -209,10 +152,10 @@
 <hr />
 <h3 id="paso-3-marcar-la-opcion-del-path-fundamental">Paso 3: Marcar la opción del PATH (¡fundamental!)</h3>
 <p>Antes de hacer clic en cualquier botón de la ventana del instalador, debes <strong>marcar la casilla inferior</strong> que dice <strong>"Add python.exe to PATH"</strong> (o <em>"Add Python to environment variables"</em>).</p>
-<div class="admonition caution">
-<p class="admonition-title"><strong>¿Por qué es importante?</strong></p>
-<p>Al marcar esta casilla podremos ejecutar Python y sus herramientas (como <code>pip</code> , que es la que vamos a necesitar) desde cualquier ventana de comandos (Terminal o CMD) sin tener que configurar variables de entorno manualmente.</p>
-</div>
+<p>/// admonition | <strong>¿Por qué es importante?</strong>
+    type: caution</p>
+<p>Al marcar esta casilla podremos ejecutar Python y sus herramientas (como <code>pip</code> , que es la que vamos a necesitar) desde cualquier ventana de comandos (Terminal o CMD) sin tener que configurar variables de entorno manualmente.
+///</p>
 <hr />
 <h3 id="paso-4-iniciar-la-instalacion">Paso 4: Iniciar la instalación</h3>
 <ol>
@@ -235,12 +178,13 @@
 <li>Abrimos una ventana de terminal.</li>
 <li>Escribe el siguiente comando y pulsa <strong>Enter</strong>:</li>
 </ol>
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>--version
+<div class="codehilite"><pre><span></span><code>python<span class="w"> </span>--version
 </code></pre></div>
+
 <ol>
 <li>Si la instalación ha sido correcta, el sistema responderá mostrando la versión instalada (ejemplo: <code>Python 3.12.2</code>).</li>
 </ol>
-<div class="highlight"><pre><span></span><code>  ┌──────────────────────────────────────────────────────────────┐
+<div class="codehilite"><pre><span></span><code>  ┌──────────────────────────────────────────────────────────────┐
   │ C:\Users\Usuario&gt; python --version                           │
   │ Python 3.12.2                                                │
   │                                                              │
@@ -248,6 +192,7 @@
   │ pip 24.0 from C:\...\python312\Lib\site-packages...          │
   └──────────────────────────────────────────────────────────────┘
 </code></pre></div>
+
 <h3 id="paso-7-y-si-no-funciona-pip">Paso 7: ¿Y SI NO FUNCIONA PIP?</h3>
 <p>Si tras instalar Python ejecutas <code>pip</code> en la terminal o símbolo del sistema (CMD) y obtienes un mensaje de error como <strong>«'pip' no se reconoce como un comando interno o externo»</strong> o <strong>«command not found»</strong>, significa que el sistema operativo no sabe dónde encontrar el ejecutable de <code>pip</code>.</p>
 <p>Esto sucede principalmente porque el ejecutable de Python/pip no está en el PATH.</p>
@@ -259,55 +204,62 @@
 <li>En la pantalla de <em>Advanced Options</em>, marca la casilla <strong>"Add Python to environment variables"</strong>.</li>
 <li>Haz clic en <strong>Install</strong> y, al finalizar, <strong>reinicia la ventana de la terminal/CMD</strong>.</li>
 </ol>
-<div class="admonition warning">
-<p class="admonition-title"><strong>SOLUCIÓN ALTERNATIVA</strong></p>
-<p>Descarga el script <a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a> y ejecútalo</p>
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>get-pip.py
+<p>/// admonition | <strong>SOLUCIÓN ALTERNATIVA</strong>
+    type: warning
+ Descarga el script <a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a> y ejecútalo</p>
+<div class="codehilite"><pre><span></span><code>python<span class="w"> </span>get-pip.py
 </code></pre></div>
-</div>
+
+<p>///</p>
 <hr />
 <h2 id="3-instalacion-de-properdocs">3. INSTALACIÓN DE PROPERDOCS</h2>
 <p>Para elaborar la documentación de nuestro proyecto,vamos a instalar la herramienta <strong><a href="https://properdocs.org/">properdocs</a></strong>.</p>
-<div class="admonition note">
-<p class="admonition-title"><strong>ENTORNO DE INSTALACIÓN</strong></p>
-<p>En nuestro caso, y dado que no vamos a desarrollar en python, todas las librerías las instalaremos globalmente sin activar entornos virtuales de python.</p>
-</div>
-<p>Antes de instalar las librerías vamos a actualizar pip:
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip
-</code></pre></div></p>
-<p>Una vez actualizado, ya podemos instalar properdocs y dos temas adicionales: mkdocs y material:
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>properdocs<span class="w"> </span>properdocs-theme-mkdocs<span class="w"> </span>mkdocs-material
-</code></pre></div></p>
-<p>Para verificar que la instalación se ha realizado correctamente, ejecuta:</p>
-<div class="highlight"><pre><span></span><code>properdocs<span class="w"> </span>--version
+<p>/// admonition | <strong>ENTORNO DE INSTALACIÓN</strong>
+    type: note</p>
+<p>En nuestro caso, y dado que no vamos a desarrollar en python, todas las librerías las instalaremos globalmente sin activar entornos virtuales de python.
+///</p>
+<p>Antes de instalar las librerías vamos a actualizar pip:</p>
+<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip
 </code></pre></div>
+
+<p>Una vez actualizado, ya podemos instalar properdocs y dos temas adicionales: mkdocs y material:</p>
+<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>properdocs<span class="w"> </span>properdocs-theme-mkdocs<span class="w"> </span>mkdocs-material
+</code></pre></div>
+
+<p>Para verificar que la instalación se ha realizado correctamente, ejecuta:</p>
+<div class="codehilite"><pre><span></span><code>properdocs<span class="w"> </span>--version
+</code></pre></div>
+
 <hr />
 <h2 id="4-inicializacion-y-configuracion-del-proyecto">4. INICIALIZACIÓN Y CONFIGURACIÓN DEL PROYECTO</h2>
 <h3 id="paso-1-clonar-el-repositorio-remoto">Paso 1: Clonar el repositorio remoto</h3>
 <p>En primer lugar, y para asegurarnos que trabajamos con el repositorio de GitHub y que nuestros cambios se van a sincronizar correctamente, vamos a descargarnos nuestro repositorio. Para ello, en GitHub, pulsando  el botoón verde <code>code</code> y eligiendo la pestaña <code>GitHub CLI</code>, vemos el comando que tenemos que escribir par clonar nuestro repositorio.</p>
-<div class="highlight"><pre><span></span><code>gh<span class="w"> </span>repo<span class="w"> </span>clone<span class="w"> </span>joaquinalbares/proyecto2627
+<div class="codehilite"><pre><span></span><code>gh<span class="w"> </span>repo<span class="w"> </span>clone<span class="w"> </span>joaquinalbares/proyecto2627
 </code></pre></div>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
+
+<p>/// admonition 
+    type: important</p>
 <ul>
 <li>Cada uno clonará su repo, no el del profesor.</li>
-<li>Se recomienda crear una parpeta GitHub dentro de la carpeta de usuario para tener todos los repositorios en el mismo sitio.</li>
+<li>Se recomienda crear una parpeta GitHub dentro de la carpeta de usuario para tener todos los repositorios en el mismo sitio.
+///</li>
 </ul>
-</div>
 <p>Ahora accedemos al repositorio en inicializamos un nuevo proyecto de ProperDocs dentro de la carpeta actual:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>proyecto2627
+<div class="codehilite"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>proyecto2627
 properdocs<span class="w"> </span>new<span class="w"> </span>.
 </code></pre></div>
+
 <p>Este comando habrá creado la siguiente estructura en tu directorio:</p>
-<div class="highlight"><pre><span></span><code>docs/
+<div class="codehilite"><pre><span></span><code>docs/
   └── index.md        # Página principal de la documentación
 properdocs.yml        # Archivo de configuración global
 </code></pre></div>
+
 <h3 id="paso-2-configurar-el-archivo-properdocsyml">Paso 2: Configurar el archivo <code>properdocs.yml</code></h3>
-<p>Abre la carpeta del proyecto con tu editor preferido (recomiendo <strong><a href="">Zed</a><a href="https://zed.dev/">https://zed.dev/</a>)</strong> y sustituye el contenido del archivo <code>properdocs.yml</code> por la siguiente configuración completa que activa el tema <strong><code>readthedocs</code></strong> y organiza la navegación del sitio:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">site_name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Proyecto</span><span class="nv"> </span><span class="s">Intermodular&quot;</span>
-<span class="nt">site_description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Proyecto</span><span class="nv"> </span><span class="s">Intermodular</span><span class="nv"> </span><span class="s">del</span><span class="nv"> </span><span class="s">Ciclo</span><span class="nv"> </span><span class="s">Formativo</span><span class="nv"> </span><span class="s">de</span><span class="nv"> </span><span class="s">Desarrollo</span><span class="nv"> </span><span class="s">de</span><span class="nv"> </span><span class="s">aplicaciones</span><span class="nv"> </span><span class="s">Web&quot;</span>
-<span class="nt">site_author</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Alumno</span><span class="nv"> </span><span class="s">DAW</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">IES</span><span class="nv"> </span><span class="s">Los</span><span class="nv"> </span><span class="s">Albares&quot;</span>
+<p>Abre la carpeta del proyecto con tu editor preferido (recomiendo <strong><a href="">Zed</a>https://zed.dev/)</strong> y sustituye el contenido del archivo <code>properdocs.yml</code> por la siguiente configuración completa que activa el tema <strong><code>readthedocs</code></strong> y organiza la navegación del sitio:</p>
+<div class="codehilite"><pre><span></span><code><span class="nt">site_name</span><span class="p">:</span><span class="w"> </span><span class="s">"Proyecto</span><span class="nv"> </span><span class="s">Intermodular"</span>
+<span class="nt">site_description</span><span class="p">:</span><span class="w"> </span><span class="s">"Proyecto</span><span class="nv"> </span><span class="s">Intermodular</span><span class="nv"> </span><span class="s">del</span><span class="nv"> </span><span class="s">Ciclo</span><span class="nv"> </span><span class="s">Formativo</span><span class="nv"> </span><span class="s">de</span><span class="nv"> </span><span class="s">Desarrollo</span><span class="nv"> </span><span class="s">de</span><span class="nv"> </span><span class="s">aplicaciones</span><span class="nv"> </span><span class="s">Web"</span>
+<span class="nt">site_author</span><span class="p">:</span><span class="w"> </span><span class="s">"Alumno</span><span class="nv"> </span><span class="s">DAW</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">IES</span><span class="nv"> </span><span class="s">Los</span><span class="nv"> </span><span class="s">Albares"</span>
 
 <span class="c1"># Selección del tema Read the Docs</span>
 <span class="nt">theme</span><span class="p">:</span>
@@ -328,24 +280,27 @@ properdocs.yml        # Archivo de configuración global
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tables</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">codehilite</span>
 </code></pre></div>
+
 <hr />
 <h2 id="6-previsualizacion-y-compilacion">6. PREVISUALIZACIÓN Y COMPILACIÓN</h2>
 <p>Inicia el servidor interno de pruebas de MkDocs:</p>
-<div class="highlight"><pre><span></span><code>properdocs<span class="w"> </span>serve
+<div class="codehilite"><pre><span></span><code>properdocs<span class="w"> </span>serve
 </code></pre></div>
+
 <p>Abre tu navegador e introduce la dirección local indicada por la terminal (por defecto, <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>). Verás el sitio que ha generado con la interfaz temática de <strong>Read the Docs</strong> cargada con tu contenido. Cualquier cambio que guardes en los archivos <code>.md</code> a partir de ahora y mientras estés sirvinedo el sitio, se actualizará automáticamente en la pantalla.</p>
 <p>Podemos detener el servicio pulsando <code>Ctrl+C</code>.</p>
 <hr />
 <h2 id="7-publicacion-en-github-pages">7. PUBLICACIÓN EN GITHUB PAGES</h2>
 <p>Cuando queramos publicar nuestro sitio para que sea visible, podemos usar el comando que proporciona properdocs, y que funcionará correctamente sin hacer ninguna configuración más si hemos seguido todos los pasos de esta práctica.</p>
 <p>Para ello escribimos:</p>
-<div class="highlight"><pre><span></span><code>properdocs<span class="w"> </span>gh-deploy
+<div class="codehilite"><pre><span></span><code>properdocs<span class="w"> </span>gh-deploy
 </code></pre></div>
+
 <p>Y se iniciará el proceso de creación de ramas, configuración y publicación del sitio manera automática. Emitiendo unos mensajes parecidos a los siguientes:</p>
-<div class="highlight"><pre><span></span><code>INFO<span class="w">    </span>-<span class="w">  </span>Cleaning<span class="w"> </span>site<span class="w"> </span>directory
+<div class="codehilite"><pre><span></span><code>INFO<span class="w">    </span>-<span class="w">  </span>Cleaning<span class="w"> </span>site<span class="w"> </span>directory
 INFO<span class="w">    </span>-<span class="w">  </span>Building<span class="w"> </span>documentation<span class="w"> </span>to<span class="w"> </span>directory:<span class="w"> </span>/Users/joaquin/GitHub/proyecto2627/site
 INFO<span class="w">    </span>-<span class="w">  </span>Documentation<span class="w"> </span>built<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">0</span>.11<span class="w"> </span>seconds
-INFO<span class="w">    </span>-<span class="w">  </span>Copying<span class="w"> </span><span class="s1">&#39;/Users/joaquin/GitHub/proyecto2627/site&#39;</span><span class="w"> </span>to<span class="w"> </span><span class="s1">&#39;gh-pages&#39;</span><span class="w"> </span>branch<span class="w"> </span>and<span class="w"> </span>pushing<span class="w"> </span>to<span class="w"> </span>GitHub.
+INFO<span class="w">    </span>-<span class="w">  </span>Copying<span class="w"> </span><span class="s1">'/Users/joaquin/GitHub/proyecto2627/site'</span><span class="w"> </span>to<span class="w"> </span><span class="s1">'gh-pages'</span><span class="w"> </span>branch<span class="w"> </span>and<span class="w"> </span>pushing<span class="w"> </span>to<span class="w"> </span>GitHub.
 Enumerating<span class="w"> </span>objects:<span class="w"> </span><span class="m">17</span>,<span class="w"> </span><span class="k">done</span>.
 Counting<span class="w"> </span>objects:<span class="w"> </span><span class="m">100</span>%<span class="w"> </span><span class="o">(</span><span class="m">17</span>/17<span class="o">)</span>,<span class="w"> </span><span class="k">done</span>.
 Delta<span class="w"> </span>compression<span class="w"> </span>using<span class="w"> </span>up<span class="w"> </span>to<span class="w"> </span><span class="m">8</span><span class="w"> </span>threads
@@ -357,6 +312,7 @@ To<span class="w"> </span>https://github.com/joaquinalbares/proyecto2627.git
 <span class="w">   </span>62746d3..5e31d06<span class="w">  </span>gh-pages<span class="w"> </span>-&gt;<span class="w"> </span>gh-pages
 INFO<span class="w">    </span>-<span class="w">  </span>Your<span class="w"> </span>documentation<span class="w"> </span>should<span class="w"> </span>shortly<span class="w"> </span>be<span class="w"> </span>available<span class="w"> </span>at:<span class="w"> </span>https://joaquinalbares.github.io/proyecto2627/
 </code></pre></div>
+
 <p>Si esperamos unos minutos, ya podremos ver nuestra página publicada en Internet: </p>
 <p><strong><a href="https://joaquinalbares.github.io/proyecto2627/">https://joaquinalbares.github.io/proyecto2627/</a></strong></p>
               
@@ -369,7 +325,7 @@ INFO<span class="w">    </span>-<span class="w">  </span>Your<span class="w"> </
     <!-- Copyright etc -->
   </div>
 
-  Construído con <a href="https://properdocs.org/">ProperDocs</a> usando un <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a> provisto por <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://properdocs.org/">ProperDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
           
         </div>
@@ -379,7 +335,7 @@ INFO<span class="w">    </span>-<span class="w">  </span>Your<span class="w"> </
 
   </div>
 
-  <div class="rst-versions" role="note" aria-label="Versiones">
+  <div class="rst-versions" role="note" aria-label="Versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
@@ -390,8 +346,6 @@ INFO<span class="w">    </span>-<span class="w">  </span>Your<span class="w"> </
     <script>var base_url = "..";</script>
     <script src="../js/theme_extra.js"></script>
     <script src="../js/theme.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-      <script src="../js/copy-button.js"></script>
       <script src="../search/main.js"></script>
     <script>
         jQuery(function () {
