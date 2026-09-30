@@ -46,6 +46,10 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Inicio</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -72,7 +76,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="proyecto">PROYECTO</h1>
+                <h1 id="welcome-to-properdocs">Welcome to ProperDocs</h1>
+<p>For full documentation visit <a href="https://properdocs.org">properdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>properdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>properdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>properdocs build</code> - Build the documentation site.</li>
+<li><code>properdocs -h</code> - Print help message and exit.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<div class="codehilite"><pre><span></span><code>properdocs.yml # The configuration file.
+docs/
+    index.md   # The documentation homepage.
+    ...        # Other markdown pages, images and other files.
+</code></pre></div>
               
             </div>
           </div><footer>
@@ -116,5 +134,5 @@
 
 <!--
 ProperDocs version : ProperDocs 1.6.7
-Build Date UTC : 2026-09-30 14:21:39.872142+00:00
+Build Date UTC : 2026-09-30 15:10:01.506937+00:00
 -->
