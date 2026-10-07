@@ -14,6 +14,7 @@ theme:
 nav:
   - Inicio: index.md
   - Proyecto 01: proyecto01.md
+  - Proyecto 02: proyecto02.md
 
 markdown_extensions:
   - tables
